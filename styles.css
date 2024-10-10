@@ -25,7 +25,7 @@ footer {
 }
 
 .hero {
-    background: url('nature-background.jpg') no-repeat center center/cover; /* Set your background image here */
+    background-color: #013220; /* Dark green background */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ footer {
     font-size: 4rem;
     letter-spacing: 3px;
     margin-bottom: 20px;
-    color: #f4f4f4;
+    color: #ffffff; /* Ensure text is white for contrast */
 }
 
 .nav-links {
@@ -51,9 +51,9 @@ footer {
 
 .nav-button {
     background-color: transparent;
-    border: 2px solid #f4f4f4;
+    border: 2px solid #ffffff;
     padding: 10px 20px;
-    color: #f4f4f4;
+    color: #ffffff;
     font-size: 1.2rem;
     text-decoration: none;
     border-radius: 5px;
@@ -62,7 +62,7 @@ footer {
 
 .nav-button:hover {
     background-color: #f4f4f4;
-    color: #2e7d32;
+    color: #013220;
 }
 
 h1.page-title {
@@ -113,6 +113,7 @@ footer p {
     font-size: 0.9rem;
     margin: 0;
 }
+
 
 
 
