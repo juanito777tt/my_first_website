@@ -1,124 +1,54 @@
-/* General Reset */
-* {
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-image: url('images/nature-background.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-/* Header Styles */
-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.logo h1 {
-    font-size: 24px;
-    color: #1C3F25; /* Darker green for elegance */
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #1C3F25; /* Darker green */
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #27ae60; /* Green on hover */
-    color: white; /* White text on hover */
-}
-
-/* Hero Section */
-#hero {
+    background-image: url('images/nature-background.jpg'); /* Add your nature background image */
+    background-size: cover;
+    color: #fff; /* Text color */
     text-align: center;
-    padding: 60px 20px;
-    background-color: rgba(255, 255, 255, 0.7);
-    margin: 20px auto;
-    max-width: 800px;
-    border-radius: 10px;
 }
 
-#hero h2 {
-    font-size: 36px;
-    color: #1C3F25; /* Darker green */
+header {
+    margin-bottom: 20px;
 }
 
-#hero p {
-    font-size: 18px;
+h2 {
+    font-size: 3em;
+    margin: 0;
 }
 
-/* About Section */
-#about {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-}
-
-/* Products Section */
-#products {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-}
-
-.product {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.product img {
-    width: 100%; /* Full width of container */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 300px; /* Limit maximum width */
-    border-radius: 10px;
-    transition: transform 0.3s; /* Smooth image hover effect */
-}
-
-.product img:hover {
-    transform: scale(1.05); /* Slightly enlarge image on hover */
-}
-
-.product h3 {
-    color: #1C3F25; /* Darker green */
-    margin: 10px 0 5px;
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
+.buttons {
     margin-top: 20px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
 }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(34, 139, 34, 0.8); /* Darker green for the buttons */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgba(34, 139, 34, 1); /* Darker on hover */
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
 
 
 
