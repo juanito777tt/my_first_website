@@ -1,1 +1,51 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/nature-background.jpg'); /* Nature background */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    text-align: center;
+}
+
+/* Styling for the header */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2C3E50;
+}
+
+/* Styling for product section */
+.products {
+    padding: 20px;
+}
+
+.product {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Styling for product images */
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #2C3E50;
+}
+
+/* Styling for footer */
+footer {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
 
