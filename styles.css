@@ -26,7 +26,7 @@ header {
 
 .logo h1 {
     font-size: 24px;
-    color: #2c3e50; /* Darker color for elegance */
+    color: #1C3F25; /* Darker green for elegance */
 }
 
 nav ul {
@@ -40,7 +40,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #2c3e50;
+    color: #1C3F25; /* Darker green */
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
@@ -64,7 +64,7 @@ nav ul li a:hover {
 
 #hero h2 {
     font-size: 36px;
-    color: #27ae60; /* Green for harmony */
+    color: #1C3F25; /* Darker green */
 }
 
 #hero p {
@@ -107,7 +107,7 @@ nav ul li a:hover {
 }
 
 .product h3 {
-    color: #27ae60;
+    color: #1C3F25; /* Darker green */
     margin: 10px 0 5px;
 }
 
@@ -119,4 +119,5 @@ footer {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
 }
+
 
