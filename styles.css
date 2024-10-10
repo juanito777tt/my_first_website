@@ -9,17 +9,14 @@ body {
     align-items: center;
     background-image: url('images/nature-background.jpg'); /* Add your nature background image */
     background-size: cover;
-    color: #fff; /* Text color */
+    color: #f8f8f8; /* Soft light color for contrast */
     text-align: center;
 }
 
-header {
-    margin-bottom: 20px;
-}
-
 h2 {
-    font-size: 3em;
+    font-size: 4em; /* Increased size for emphasis */
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
 .buttons {
