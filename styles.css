@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif; /* Set a clean font */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    transition: background-color 0.3s ease; /* Smooth transition for background */
 }
 
 /* Header styles */
@@ -15,7 +16,7 @@ header {
 
 /* Navigation button styles */
 .button {
-    background-color: #2c3e50; /* Dark green color for buttons */
+    background-color: #1a252f; /* Slightly darker green for buttons */
     color: white; /* Text color for buttons */
     border: 2px solid white; /* White border around buttons */
     border-radius: 5px; /* Rounded corners for buttons */
@@ -23,6 +24,20 @@ header {
     margin: 10px; /* Margin around buttons */
     text-decoration: none; /* Remove underline from links */
     display: inline-block; /* Display buttons inline */
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: #ecf0f1; /* Light color on hover */
+    color: #2c3e50; /* Dark text on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Welcome message styles */
+.welcome-message {
+    text-align: center;
+    font-size: 1.5em; /* Adjust size as needed */
+    margin-top: 50px; /* Space from top */
 }
 
 /* About heading styles */
@@ -35,7 +50,7 @@ header {
 
 /* Style for the About text boxes */
 .about-box {
-    background-color: #2c3e50; /* Dark green background for the boxes */
+    background-color: rgba(255, 255, 255, 0.8); /* White background for the boxes */
     border: 1px solid #fff; /* Light border around the boxes */
     border-radius: 8px; /* Rounded corners */
     padding: 20px; /* Inner spacing */
@@ -43,6 +58,45 @@ header {
     max-width: 600px; /* Set a maximum width */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
 }
+
+/* Product heading styles */
+.product-heading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em; /* Adjust size as needed */
+    color: #ecf0f1; /* Light color for contrast */
+}
+
+/* Product container styles */
+.product-container {
+    display: flex;
+    justify-content: center; /* Center products */
+    flex-wrap: wrap; /* Wrap products to next line */
+    margin: 20px; /* Space around products */
+}
+
+/* Product styles */
+.product {
+    background-color: rgba(255, 255, 255, 0.8); /* White background for product boxes */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    margin: 10px; /* Margin around each product */
+    text-align: center; /* Center text */
+    width: 250px; /* Fixed width for uniformity */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.product-image {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Price styles */
+.price {
+    font-size: 1.2em; /* Size for price */
+    color: #27ae60; /* Green color for price */
+}
+
 
 
 
