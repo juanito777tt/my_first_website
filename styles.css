@@ -9,8 +9,8 @@ body, html {
     flex-direction: column;
 }
 
-/* Home Page Background */
-.homepage {
+/* Background for all pages */
+.page-background {
     position: relative;
     background: url('images/nature-background.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -21,7 +21,7 @@ body, html {
     flex-grow: 1;
 }
 
-.homepage::before {
+.page-background::before {
     content: '';
     position: absolute;
     top: 0;
@@ -29,25 +29,33 @@ body, html {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Creates a dark overlay */
+    z-index: 1;
 }
 
-/* Main content on the homepage */
-.homepage-content {
+/* Content on the page */
+.page-content, .homepage-content {
     position: relative;
     z-index: 2;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.homepage h1 {
-    font-size: 64px;
-    font-weight: bold;
+/* Main Heading */
+h1, h2 {
+    font-size: 36px;
     margin-bottom: 30px;
 }
 
+/* Button Styles */
 .homepage .button-group {
     margin-top: 20px;
 }
 
-.homepage button {
+button {
     background-color: #2f4f4f;
     color: white;
     padding: 15px 30px;
@@ -59,25 +67,8 @@ body, html {
     margin: 10px;
 }
 
-.homepage button:hover {
+button:hover {
     background-color: #1e392e;
-}
-
-/* About and Product pages */
-.page-heading {
-    font-size: 36px;
-    margin: 20px;
-    text-align: center;
-}
-
-.page-content {
-    margin: 20px auto;
-    max-width: 1200px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #333;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Product Grid */
