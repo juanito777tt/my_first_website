@@ -1,6 +1,6 @@
 /* General Styling */
 body, html {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; /* Change to a more inviting font like 'Georgia' */
     margin: 0;
     padding: 0;
     color: #fff;
@@ -33,65 +33,29 @@ body, html {
 }
 
 /* Content on the page */
-.page-content, .homepage-content {
+.page-content {
     position: relative;
     z-index: 2;
-    max-width: 1200px;
+    max-width: 800px; /* Center and limit width */
     background-color: rgba(255, 255, 255, 0.9);
     color: #333;
     border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Increase padding for better aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Main Heading */
-h1, h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
+h1 {
+    font-size: 32px; /* Increase heading size */
+    margin-bottom: 20px; /* Add margin for space */
+    color: #2f4f4f; /* Use a contrasting color for the header */
 }
 
-/* Button Styles */
-.homepage .button-group {
-    margin-top: 20px;
-}
-
-button {
-    background-color: #2f4f4f;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-    margin: 10px;
-}
-
-button:hover {
-    background-color: #1e392e;
-}
-
-/* Product Grid */
-.product-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.product {
-    margin: 10px;
-    text-align: center;
-}
-
-.product img {
-    width: 200px;
-    height: auto;
-}
-
-.product p {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #2f4f4f;
+/* Paragraph Styling */
+p {
+    font-size: 18px; /* Increase font size for readability */
+    line-height: 1.6; /* Increase line height for better spacing */
+    margin: 10px 0; /* Add margin for spacing between paragraphs */
 }
 
 /* Footer */
