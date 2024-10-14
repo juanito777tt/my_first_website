@@ -3,173 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Tranquil Skincare - Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function addToCart(product) {
+            alert(product + " has been added to your cart!");
+        }
+    </script>
 </head>
 <body>
     <header>
-        <h1>Our Products</h1>
+        <div class="logo">
+            <img src="images/logo.png" alt="Tranquil Skincare Logo">
+        </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
         </nav>
     </header>
     
     <main>
-        <div class="product-container">
-            <div class="product">
-                <img src="images/16_프로폴리스비타민아이크림_세트.png.jpg" alt="Propolis Vitamin Eye Cream Set">
+        <h1>Our Products</h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/logo.png" alt="Propolis Vitamin Eye Cream Set">
                 <h3>Propolis Vitamin Eye Cream Set</h3>
-                <p>$45</p>
+                <p>$30.00</p>
+                <button onclick="addToCart('Propolis Vitamin Eye Cream Set')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/APieu-Glycolic-Acid-Cream.jpg.jpg" alt="APieu Glycolic Acid Cream">
+            <div class="product-card">
+                <img src="images/APieu-Glycolic-Acid-Cream.jpg" alt="APieu Glycolic Acid Cream">
                 <h3>APieu Glycolic Acid Cream</h3>
-                <p>$45</p>
+                <p>$25.00</p>
+                <button onclick="addToCart('APieu Glycolic Acid Cream')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Acwell-Licorice-pH-Balancing-Intensive-Eye-Cream.jpg.jpg" alt="Acwell Licorice Eye Cream">
-                <h3>Acwell Licorice Eye Cream</h3>
-                <p>$40</p>
+            <div class="product-card">
+                <img src="images/Acwell-Licorice-pH-Balancing-Intensive-Eye-Cream.jpg" alt="Acwell Licorice pH Balancing Eye Cream">
+                <h3>Acwell Licorice pH Balancing Eye Cream</h3>
+                <p>$28.00</p>
+                <button onclick="addToCart('Acwell Licorice pH Balancing Eye Cream')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Apieu-Madecassoside-Sleeping-Mask-copy.jpg.jpg" alt="Apieu Madecassoside Sleeping Mask">
-                <h3>Apieu Madecassoside Sleeping Mask</h3>
-                <p>$35</p>
+            <div class="product-card">
+                <img src="images/Apieu-Madecassoside-Sleeping-Mask-copy.jpg" alt="APieu Madecassoside Sleeping Mask">
+                <h3>APieu Madecassoside Sleeping Mask</h3>
+                <p>$22.00</p>
+                <button onclick="addToCart('APieu Madecassoside Sleeping Mask')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Aloe-Propolis-Soothing-Gel-100-ml.jpg.jpg" alt="Benton Aloe Propolis Soothing Gel">
+            <div class="product-card">
+                <img src="images/Benton-Aloe-Propolis-Soothing-Gel-100-ml.jpg" alt="Benton Aloe Propolis Soothing Gel">
                 <h3>Benton Aloe Propolis Soothing Gel</h3>
-                <p>$30</p>
+                <p>$19.00</p>
+                <button onclick="addToCart('Benton Aloe Propolis Soothing Gel')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Deep-Green-Tea-Toner-1.jpg.jpg" alt="Benton Deep Green Tea Toner">
+            <div class="product-card">
+                <img src="images/Benton-Deep-Green-Tea-Toner-1.jpg" alt="Benton Deep Green Tea Toner">
                 <h3>Benton Deep Green Tea Toner</h3>
-                <p>$25</p>
+                <p>$21.00</p>
+                <button onclick="addToCart('Benton Deep Green Tea Toner')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Fermentation-Eye-Cream.jpg.jpg" alt="Benton Fermentation Eye Cream">
+            <div class="product-card">
+                <img src="images/Benton-Fermentation-Eye-Cream.jpg" alt="Benton Fermentation Eye Cream">
                 <h3>Benton Fermentation Eye Cream</h3>
-                <p>$40</p>
+                <p>$27.00</p>
+                <button onclick="addToCart('Benton Fermentation Eye Cream')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Fermentation-Sheet-Mask-3.jpg.jpg" alt="Benton Fermentation Sheet Mask">
+            <div class="product-card">
+                <img src="images/Benton-Fermentation-Sheet-Mask-3.jpg" alt="Benton Fermentation Sheet Mask">
                 <h3>Benton Fermentation Sheet Mask</h3>
-                <p>$15</p>
+                <p>$18.00</p>
+                <button onclick="addToCart('Benton Fermentation Sheet Mask')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Fermentation-essence.jpg.jpg" alt="Benton Fermentation Essence">
+            <div class="product-card">
+                <img src="images/Benton-Fermentation-essence.jpg" alt="Benton Fermentation Essence">
                 <h3>Benton Fermentation Essence</h3>
-                <p>$35</p>
+                <p>$35.00</p>
+                <button onclick="addToCart('Benton Fermentation Essence')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-PHA-Peeling-Toner.jpg.jpg" alt="Benton PHA Peeling Toner">
+            <div class="product-card">
+                <img src="images/Benton-PHA-Peeling-Toner.jpg" alt="Benton PHA Peeling Toner">
                 <h3>Benton PHA Peeling Toner</h3>
-                <p>$28</p>
+                <p>$23.00</p>
+                <button onclick="addToCart('Benton PHA Peeling Toner')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Snail-Bee-High-Content-Lotion.jpg.jpg" alt="Benton Snail Bee High Content Lotion">
+            <div class="product-card">
+                <img src="images/Benton-Snail-Bee-High-Content-Lotion.jpg" alt="Benton Snail Bee High Content Lotion">
                 <h3>Benton Snail Bee High Content Lotion</h3>
-                <p>$30</p>
+                <p>$30.00</p>
+                <button onclick="addToCart('Benton Snail Bee High Content Lotion')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Snail-Bee-Ultimate-Hydrogel-Eye-Patch.jpg.jpg" alt="Benton Snail Bee Hydrogel Eye Patch">
-                <h3>Benton Snail Bee Hydrogel Eye Patch</h3>
-                <p>$25</p>
+            <div class="product-card">
+                <img src="images/Benton-Snail-Bee-Ultimate-Hydrogel-Eye-Patch.jpg" alt="Benton Snail Bee Ultimate Hydrogel Eye Patch">
+                <h3>Benton Snail Bee Ultimate Hydrogel Eye Patch</h3>
+                <p>$20.00</p>
+                <button onclick="addToCart('Benton Snail Bee Ultimate Hydrogel Eye Patch')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Snail-Bee-Ultimate-Serum-1.jpg.jpg" alt="Benton Snail Bee Ultimate Serum">
+            <div class="product-card">
+                <img src="images/Benton-Snail-Bee-Ultimate-Serum-1.jpg" alt="Benton Snail Bee Ultimate Serum">
                 <h3>Benton Snail Bee Ultimate Serum</h3>
-                <p>$40</p>
+                <p>$32.00</p>
+                <button onclick="addToCart('Benton Snail Bee Ultimate Serum')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/Benton-Snail-Bee-Ultimate-cream.jpg.jpg" alt="Benton Snail Bee Ultimate Cream">
+            <div class="product-card">
+                <img src="images/Benton-Snail-Bee-Ultimate-cream.jpg" alt="Benton Snail Bee Ultimate Cream">
                 <h3>Benton Snail Bee Ultimate Cream</h3>
-                <p>$38</p>
+                <p>$28.00</p>
+                <button onclick="addToCart('Benton Snail Bee Ultimate Cream')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/acwell-licorice-low-ph-balancing-cleansing-toner.jpg" alt="Acwell Licorice Cleansing Toner">
-                <h3>Acwell Licorice Cleansing Toner</h3>
-                <p>$30</p>
+            <div class="product-card">
+                <img src="images/acwell-licorice-low-ph-balancing-cleansing-toner.jpg" alt="Acwell Licorice Low pH Cleansing Toner">
+                <h3>Acwell Licorice Low pH Cleansing Toner</h3>
+                <p>$24.00</p>
+                <button onclick="addToCart('Acwell Licorice Low pH Cleansing Toner')">Add to Cart</button>
             </div>
-            <div class="product">
+            <div class="product-card">
                 <img src="images/convertio.in_COSRX-Balancium-Comfort-Ceramide-Cream.jpg.jpeg" alt="COSRX Balancium Comfort Ceramide Cream">
                 <h3>COSRX Balancium Comfort Ceramide Cream</h3>
-                <p>$45</p>
+                <p>$31.00</p>
+                <button onclick="addToCart('COSRX Balancium Comfort Ceramide Cream')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/convertio.in_COSRX_snail_eyecream_4060_1__44620.1573545201.1280.1000.jpg.jpeg" alt="COSRX Snail Eye Cream">
-                <h3>COSRX Snail Eye Cream</h3>
-                <p>$40</p>
+            <div class="product-card">
+                <img src="images/convertio.in_COSRX_snail_eyecream_4060_1__44620.1573545201.1280.1000.jpg.jpeg" alt="COSRX Advanced Snail Eye Cream">
+                <h3>COSRX Advanced Snail Eye Cream</h3>
+                <p>$29.00</p>
+                <button onclick="addToCart('COSRX Advanced Snail Eye Cream')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/convertio.in_Haru-Haru-Black-Rice-Hyaluronic-Essence.png.jpeg" alt="Haru Haru Black Rice Essence">
-                <h3>Haru Haru Black Rice Essence</h3>
-                <p>$35</p>
+            <div class="product-card">
+                <img src="images/convertio.in_Haru-Haru-Black-Rice-Hyaluronic-Essence.png.jpeg" alt="HaruHaru Black Rice Hyaluronic Essence">
+                <h3>HaruHaru Black Rice Hyaluronic Essence</h3>
+                <p>$22.00</p>
+                <button onclick="addToCart('HaruHaru Black Rice Hyaluronic Essence')">Add to Cart</button>
             </div>
-            <div class="product">
-                <img src="images/convertio.in_HaruHaru_WONDER_Black_Rice_Facial_Oil_10ml_texture__15110.1644770237.jpg.jpeg" alt="Haru Haru Black Rice Facial Oil">
-                <h3>Haru Haru Black Rice Facial Oil</h3>
-                <p>$38</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_PyunkangYul-DeepNourishingMultiBalm.jpeg" alt="Pyunkang Yul Deep Nourishing Balm">
-                <h3>Pyunkang Yul Deep Nourishing Balm</h3>
-                <p>$30</p>
-            </div>
-            <div classHere’s the continuation and completion of the `product.html` code:
-
-```html
-            <div class="product">
-                <img src="images/convertio.in_SomeByMi-AHA-BHA-PHA-30Days-Miracle-Toner_200ml_15-1931725800.jpg" alt="Some By Mi AHA BHA PHA 30 Days Miracle Toner">
-                <h3>Some By Mi AHA BHA PHA 30 Days Miracle Toner</h3>
-                <p>$28</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_SomeByMi-AHA-BHA-PHA-30Days-Cream_50g_10-1332560378.jpg" alt="Some By Mi AHA BHA PHA 30 Days Cream">
-                <h3>Some By Mi AHA BHA PHA 30 Days Cream</h3>
-                <p>$32</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_SomeByMi-Miracle-Toner-3.jpg" alt="Some By Mi Miracle Toner">
-                <h3>Some By Mi Miracle Toner</h3>
-                <p>$25</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_SomeByMi-Miracle-Essence-3.jpg" alt="Some By Mi Miracle Essence">
-                <h3>Some By Mi Miracle Essence</h3>
-                <p>$30</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_SomeByMi-AHA-BHA-PHA-30Days-Real-Sheet-Mask-1.jpg" alt="Some By Mi AHA BHA PHA 30 Days Real Sheet Mask">
-                <h3>Some By Mi AHA BHA PHA 30 Days Real Sheet Mask</h3>
-                <p>$5</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_SomeByMi-Brightening-Vitamin-C-Serum.jpg" alt="Some By Mi Brightening Vitamin C Serum">
-                <h3>Some By Mi Brightening Vitamin C Serum</h3>
-                <p>$40</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_SomeByMi-Toner-6.jpg" alt="Some By Mi Toner">
-                <h3>Some By Mi Toner</h3>
-                <p>$25</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_The-Ordinary-Granactive-Retinoid-2-Emulsion.jpg" alt="The Ordinary Granactive Retinoid 2% Emulsion">
-                <h3>The Ordinary Granactive Retinoid 2% Emulsion</h3>
-                <p>$30</p>
-            </div>
-            <div class="product">
-                <img src="images/convertio.in_The-Ordinary-Hyaluronic-Acid-2-Serum.jpg" alt="The Ordinary Hyaluronic Acid 2% Serum">
-                <h3>The Ordinary Hyaluronic Acid 2% Serum</h3>
-                <p>$25</p>
-            </div>
+            <!-- Add more products as needed -->
         </div>
     </main>
 
     <footer>
-        <p>© 2024 Tranquil Skincare. All rights reserved.</p>
+        <p>&copy; 2024 Tranquil Skincare. All rights reserved.</p>
     </footer>
 </body>
 </html>
