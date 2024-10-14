@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Tranquil Skincare</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Tranquil Skincare Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <h1>Our Products</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/16_프로폴리스비타민아이크림_세트.png.jpg" alt="Propolis Vitamin Cream">
+                <h2>Propolis Vitamin Cream</h2>
+                <button onclick="addToCart('Propolis Vitamin Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/APieu-Glycolic-Acid-Cream.jpg.jpg" alt="Glycolic Acid Cream">
+                <h2>Glycolic Acid Cream</h2>
+                <button onclick="addToCart('Glycolic Acid Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Acwell-Licorice-pH-Balancing-Intensive-Eye-Cream.jpg.jpg" alt="Licorice Eye Cream">
+                <h2>Licorice Eye Cream</h2>
+                <button onclick="addToCart('Licorice Eye Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Apieu-Madecassoside-Sleeping-Mask-copy.jpg.jpg" alt="Madecassoside Sleeping Mask">
+                <h2>Madecassoside Sleeping Mask</h2>
+                <button onclick="addToCart('Madecassoside Sleeping Mask')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Aloe-Propolis-Soothing-Gel-100-ml.jpg.jpg" alt="Aloe Propolis Soothing Gel">
+                <h2>Aloe Propolis Soothing Gel</h2>
+                <button onclick="addToCart('Aloe Propolis Soothing Gel')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Deep-Green-Tea-Toner-1.jpg.jpg" alt="Deep Green Tea Toner">
+                <h2>Deep Green Tea Toner</h2>
+                <button onclick="addToCart('Deep Green Tea Toner')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Fermentation-Eye-Cream.jpg.jpg" alt="Fermentation Eye Cream">
+                <h2>Fermentation Eye Cream</h2>
+                <button onclick="addToCart('Fermentation Eye Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Fermentation-Sheet-Mask-3.jpg.jpg" alt="Fermentation Sheet Mask">
+                <h2>Fermentation Sheet Mask</h2>
+                <button onclick="addToCart('Fermentation Sheet Mask')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Fermentation-essence.jpg.jpg" alt="Fermentation Essence">
+                <h2>Fermentation Essence</h2>
+                <button onclick="addToCart('Fermentation Essence')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-PHA-Peeling-Toner.jpg.jpg" alt="PHA Peeling Toner">
+                <h2>PHA Peeling Toner</h2>
+                <button onclick="addToCart('PHA Peeling Toner')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Snail-Bee-High-Content-Lotion.jpg.jpg" alt="Snail Bee High Content Lotion">
+                <h2>Snail Bee High Content Lotion</h2>
+                <button onclick="addToCart('Snail Bee High Content Lotion')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Snail-Bee-Ultimate-Hydrogel-Eye-Patch.jpg.jpg" alt="Snail Bee Hydrogel Eye Patch">
+                <h2>Snail Bee Hydrogel Eye Patch</h2>
+                <button onclick="addToCart('Snail Bee Hydrogel Eye Patch')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Snail-Bee-Ultimate-Serum-1.jpg.jpg" alt="Snail Bee Ultimate Serum">
+                <h2>Snail Bee Ultimate Serum</h2>
+                <button onclick="addToCart('Snail Bee Ultimate Serum')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Benton-Snail-Bee-Ultimate-cream.jpg.jpg" alt="Snail Bee Ultimate Cream">
+                <h2>Snail Bee Ultimate Cream</h2>
+                <button onclick="addToCart('Snail Bee Ultimate Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/acwell-licorice-low-ph-balancing-cleansing-toner.jpg" alt="Licorice Cleansing Toner">
+                <h2>Licorice Cleansing Toner</h2>
+                <button onclick="addToCart('Licorice Cleansing Toner')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/convertio.in_COSRX-Balancium-Comfort-Ceramide-Cream.jpg.jpeg" alt="Balancium Comfort Cream">
+                <h2>Balancium Comfort Cream</h2>
+                <button onclick="addToCart('Balancium Comfort Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/convertio.in_COSRX_snail_eyecream_4060_1__44620.1573545201.1280.1000.jpg.jpeg" alt="COSRX Snail Eye Cream">
+                <h2>COSRX Snail Eye Cream</h2>
+                <button onclick="addToCart('COSRX Snail Eye Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/convertio.in_Haru-Haru-Black-Rice-Hyaluronic-Essence.png.jpeg" alt="Black Rice Hyaluronic Essence">
+                <h2>Black Rice Hyaluronic Essence</h2>
+                <button onclick="addToCart('Black Rice Hyaluronic Essence')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/convertio.in_HaruHaru_WONDER_Black_Rice_Facial_Oil_10ml_texture__15110.1644770237.jpg.jpeg" alt="Black Rice Facial Oil">
+                <h2>Black Rice Facial Oil</h2>
+                <button onclick="addToCart('Black Rice Facial Oil')">Add to Cart</button>
+             </div>
+             <div class="product">
+                <img src="images/convertio.in_PyunkangYul-DeepNourishing-Cream-100ml.png.jpeg" alt="Deep Nourishing Cream">
+                <h2>Deep Nourishing Cream</h2>
+                <button onclick="addToCart('Deep Nourishing Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/convertio.in_PyunkangYul-Essential-Moisture-Serum-30ml.png.jpeg" alt="Essential Moisture Serum">
+                <h2>Essential Moisture Serum</h2>
+                <button onclick="addToCart('Essential Moisture Serum')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/convertio.in_SomeByMi-30-Days-AHA-BHA-PHA-Real-Skin-30-Day-Miracle-Toner.png.jpeg" alt="30 Days Miracle Toner">
+                <h2>30 Days Miracle Toner</h2>
+                <button onclick="addToCart('30 Days Miracle Toner')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/convertio.in_SomeByMi-30-Days-AHA-BHA-PHA-Real-Skin-30-Day-Miracle-Cream.png.jpeg" alt="30 Days Miracle Cream">
+                <h2>30 Days Miracle Cream</h2>
+                <button onclick="addToCart('30 Days Miracle Cream')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/convertio.in_SomeByMi-Miracle-Toner.png.jpeg" alt="Miracle Toner">
+                <h2>Miracle Toner</h2>
+                <button onclick="addToCart('Miracle Toner')">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tranquil Skincare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
