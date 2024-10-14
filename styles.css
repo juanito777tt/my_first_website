@@ -1,69 +1,30 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
+/* Logo styling */
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px; /* Adjust the size */
+  margin-top: 50px;
 }
 
-header {
-    background-color: #6db65e;
-    color: white;
-    padding: 20px;
-    text-align: center;
+/* Centering content */
+.home-container {
+  text-align: center;
+  padding: 20px;
 }
 
-header h1 {
-    margin: 0;
+.home-title {
+  font-size: 36px;
+  margin-top: 20px;
+  color: #2b2b2b; /* Natural dark color */
 }
 
-nav {
-    margin-top: 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-.hero {
-    background-color: #e0f7fa;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.product-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.product {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    text-align: center;
-}
-
-.product img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
+/* Footer */
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #2b2b2b;
+  color: white;
+  padding: 10px;
 }
-
