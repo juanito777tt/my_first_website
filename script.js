@@ -1,5 +1,8 @@
-// This script can be used for any future functionality
-document.addEventListener('DOMContentLoaded', () => {
-    console.log("Document is ready!");
-    // Add more interactive features here
+const buttons = document.querySelectorAll('.cta-button');
+
+buttons.forEach(button => {
+    button.addEventListener('click', (event) => {
+        event.preventDefault();
+        alert('Product added to cart!');
+    });
 });
