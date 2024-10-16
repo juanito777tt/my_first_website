@@ -1,3 +1,4 @@
-function addToCart(productName) {
-    alert(productName + ' has been added to your cart!');
-}
+// Placeholder for future JavaScript functionality
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Document loaded. Ready to add functionality.');
+});
