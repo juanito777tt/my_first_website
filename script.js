@@ -1,4 +1,5 @@
-// Placeholder for future JavaScript functionality
+// This script can be used for any future functionality
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Document loaded. Ready to add functionality.');
+    console.log("Document is ready!");
+    // Add more interactive features here
 });
